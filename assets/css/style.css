@@ -1,0 +1,64 @@
+body {
+    font-size: 1rem;
+    font-family: 'Heebo', sans-serif;
+}
+
+.brand-logo {
+    margin-left: 1rem;
+    font-family: 'Oswald', sans-serif;
+    font-style: italic;
+}
+
+.main-img {
+    float:left;
+}
+.promo i {
+    font-size: 5rem;
+    display: block;
+    margin: 1rem;
+    color: #FC4A1A;
+}
+
+.promo-caption {
+    font-family: 'Oswald', sans-serif;
+    font-size: 2rem;
+    margin: 1rem;
+}
+
+.promo-body {
+    line-height: 1.5rem;
+}
+
+.image-text {
+    font-family: 'Oswald', sans-serif;
+    font-size: 3rem;
+    font-style: italic;
+    margin: 10rem;
+    color: white;
+}
+
+.main-text {
+    font-family: 'Oswald', sans-serif;
+    font-size: 3rem;
+    font-style: italic;
+    margin: 3rem;
+    color: white;
+}
+
+.row {
+    margin: 3rem;
+}
+
+.video{
+	margin: auto;
+	width: 500px;
+	height: 375px;
+    border: 10px #4ABDAC solid;
+}
+
+#video {
+	width: 100%;
+	height: 100%;
+    background-color: #666;
+
+}

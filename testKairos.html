@@ -1,0 +1,47 @@
+
+
+<!DOCTYPE html>
+
+<html lang="en-us">
+
+<head>
+
+  <meta charset="UTF-8">
+  <title>Employee Tracker</title>
+
+ 
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+  
+<script>
+
+
+var headers = {
+	"Content-type"     : "application/json",
+	"app_id"          : "b9f2d60a",
+	"app_key"         : "dadb4197732a9c1e434fb8eb6f6f4b76"
+};
+
+var payload  = { "image" : "https://media.kairos.com/liz.jpg" };
+
+
+var url = "http://api.kairos.com/detect";
+
+// make request 
+$.ajax(url, {
+	headers  : headers,
+    type: "POST",
+    data: JSON.stringify(payload),
+    dataType: "text"
+}).done(function(response){
+	console.log(response);
+});
+</script>
+
+
+</head>
+
+<body>
+<h1>test</h1>
+    </body>
+
+    </html>
